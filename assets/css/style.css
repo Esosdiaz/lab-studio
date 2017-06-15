@@ -1,0 +1,67 @@
+/*amarillo claro=#fcd145*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar-lab{
+	position: fixed;
+	background-color: transparent;
+	width: 100%;
+	border: none;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #fcd145;
+}
+.navbar-default .bnt-rspnsv {
+    border-color: #fcd145;
+    background-color: #fcd145;
+}
+.navbar-default .bnt-rspnsv .icon-bar {
+    background-color: white;
+}
+.bnt-rspnsv:hover{
+	color: #fcd145;
+}
+.navbar-lab .titulo{
+	color: #fcd145; 
+	font-family: 'Kaushan Script', cursive;
+	font-size: 30px;
+}
+.welcome{
+	background-image: url(../img/header-bg.jpg);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+	background-position: center center;
+}
+.texto-welcome{
+	text-align: center;
+	position: absolute; 
+	top: 38vh;
+}
+.welcome .texto-welcome h2{
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	font-size: 23px;
+	color: white;
+}
+.welcome .texto-welcome h1{
+	font-size: 55px;
+	color: white;
+	font-weight: 800;
+}
+.welcome .tell-me{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: white;
+	background-color: #fcd145; 
+	padding: 20px 30px;
+	border: none;
+	font-size: 20px;
+	margin: 20px;
+}
+
