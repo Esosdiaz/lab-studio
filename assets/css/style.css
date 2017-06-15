@@ -100,8 +100,8 @@
 }
 .col-services i{
 	position: relative;
-    top: 1vh;
-    right: 1px;
+    top: 2vh;
+    right: 0px;
     color: white;
 }
 .col-services h4{
@@ -112,8 +112,53 @@
 }
 .services p{
 	font-family: 'Droid Serif', serif;
-	font-size: 10px;
+	font-size: 12px;
 	color: #848684;
 }
-
+.portfolio{
+	padding-bottom: 10vh;
+	padding-top: 10vh;
+	width: 100%
+	padding-left: 5vh;
+	padding-right: 5vh;
+	background-color: #eeeeee;
+}
+.portfolio h1{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: #333333;
+}
+.portfolio h2{
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	font-size: 15px;
+	color: #848684;/*gris claro*/
+}
+.fotos{
+	padding-left: 5vh;
+}
+.fotos2{
+	padding-left: 2vh;
+	padding-top: 3vh;
+}
+.caja{
+	background-color: white;
+	width: 100%;
+}
+.caja img{
+	width: 100%;
+}
+.caja h4{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: #333333;
+}
+.caja p{
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	font-size: 12px;
+	color: #848684;/*gris claro*/
+}
 
