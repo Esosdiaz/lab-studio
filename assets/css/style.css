@@ -9,6 +9,7 @@
 	background-color: transparent;
 	width: 100%;
 	border: none;
+	z-index: 1000;
 }
 .navbar-default .navbar-nav>li>a{
 	color: #fff;
@@ -59,9 +60,60 @@
 	font-weight: 700;
 	color: white;
 	background-color: #fcd145; 
-	padding: 20px 30px;
+	padding: 20px 20px;
 	border: none;
 	font-size: 20px;
 	margin: 20px;
+	z-index: -1000;
 }
+.services{
+	padding-bottom: 10vh;
+	padding-top: 10vh;
+	width: 100%
+	padding-left: 5vh;
+	padding-right: 5vh;
+
+}
+.services h1{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: #333333;/*gris oscuro*/
+}
+.services h2{
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	font-size: 15px;
+	color: #848684;/*gris claro*/
+}
+.services .col-services{
+	width: 33%
+}
+.col-services .circle{
+	width: 70px;
+	height: 70px;
+	background: #fcd145;
+	margin: 0 auto;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+.col-services i{
+	position: relative;
+    top: 1vh;
+    right: 1px;
+    color: white;
+}
+.col-services h4{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: #333333;
+}
+.services p{
+	font-family: 'Droid Serif', serif;
+	font-size: 10px;
+	color: #848684;
+}
+
 
