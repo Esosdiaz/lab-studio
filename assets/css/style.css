@@ -329,3 +329,15 @@
     margin: 20px;
     z-index: -1000;
 }
+footer{
+	width: 100%;
+	padding-bottom: 5vh;
+	padding-top: 5vh;
+	padding-right: 5vh;
+	padding-left: 5vh;
+	font-family: 'Montserrat', sans-serif;
+}
+.enlaces a{
+	text-decoration: none;
+	color: #fcd145;
+}
