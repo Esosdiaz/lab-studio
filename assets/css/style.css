@@ -162,8 +162,12 @@
 	font-size: 12px;
 	color: #848684;/*gris claro*/
 }
-#about{
-	padding: 8% 0;
+.about{
+	width: 100%;
+	padding-bottom: 10vh;
+	padding-top: 10vh;
+	padding-right: 5vh;
+	padding-left: 5vh;
 }
 .linea-about{
 	margin-top: 50px;
@@ -173,10 +177,110 @@
 	border: 5px solid #d3d3d3;
 }
 .circulo-amarillo{
-	width: 130px;
-    height: 130px;
-    border-radius: 130px;
+	width: 150px;
+    height: 150px;
+    border-radius: 150px;
 	background-color: #fcd145;
 	border: 5px solid #d3d3d3;
 }
+.circulo-amarillo h4{
+	position: relative;
+	bottom: -18px;
+}
+.about h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #333333;
+}
+.about p{
+	font-family: 'Droid Serif', serif;
+    font-style: italic;
+    font-size: 15px;
+    color: #848684;
+}
+.linea-about p{
+	font-style: normal;
+}
+.linea-about h4{
+	font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+.team{
+	padding-bottom: 10vh;
+	padding-top: 10vh;
+	width: 100%
+	padding-left: 5vh;
+	padding-right: 5vh;
+	background-color: #eeeeee;
+}
+.team .amazing h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #333333;
+}
+.team p{
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+    font-size: 15px;
+    color: #848684;
+}
+.linea-team{
+	padding-top: 3vh;
+}
+.linea-team i{
+	color: black;
+}
+.linea-team h4{
+	font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+.circulo-team1{
+	width: 130px;
+    height: 130px;
+    border-radius: 130px;
+	border: 5px solid white;
+	background-image: url(../img/kay-garland.jpg);
+	position: relative;
+    left: 12vh;
+}
+
+.circulo-team2{
+	width: 130px;
+    height: 130px;
+    border-radius: 130px;
+	border: 5px solid white;
+	background-image: url(../img/larry-parker.jpg);
+	position: relative;
+    left: 12vh;
+}
+.circulo-team3{
+	width: 130px;
+    height: 130px;
+    border-radius: 130px;
+	border: 5px solid white;
+	background-image: url(../img/diana-petersen.jpg);
+	position: relative;
+    left: 12vh;
+}
+.amazing .p2{
+	font-style: normal;
+	padding-top: 3vh;
+}
+.marcalinea{
+	width: 100%;
+	padding-bottom: 10vh;
+	padding-top: 10vh;
+	padding-right: 5vh;
+	padding-left: 5vh;
+}
+.marca-foto{
+	padding-top: 3vh;
+}
+
 
