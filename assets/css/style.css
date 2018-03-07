@@ -162,32 +162,30 @@
 	font-size: 12px;
 	color: #848684;/*gris claro*/
 }
-.about{
-	width: 100%;
-	padding-bottom: 10vh;
-	padding-top: 10vh;
-	padding-right: 5vh;
-	padding-left: 5vh;
+#about{
+	padding: 8% 0;
 }
 .linea-about{
 	margin-top: 50px;
 }
 .circulo img{
 	border-radius:150px;
-	border: 5px solid #848684;
+	border: 5px solid #d3d3d3;
 }
 .circulo-amarillo{
-	width: 150px;
-    height: 150px;
-    border-radius: 150px;
-    -moz-border-radius: 75px;
-	-webkit-border-radius: 75px;
+	width: 165px;
+    height: 165px;
+    border-radius: 165px;
+    margin-left: 500px;
+    padding-top: 15px;
 	background-color: #fcd145;
-	border: 5px solid #848684;
+	border: 5px solid #d3d3d3;
 }
-.circulo-amarillo h4{
+.circulo-amarillo p{
 	position: relative;
 	bottom: -18px;
+	color: #ffffff;
+	font-size: 20px;
 }
 .about h1{
     font-family: "Montserrat", sans-serif;
@@ -213,7 +211,7 @@
 .team{
 	padding-bottom: 10vh;
 	padding-top: 10vh;
-	width: 100%
+	width: 100%;
 	padding-left: 5vh;
 	padding-right: 5vh;
 	background-color: #eeeeee;
@@ -243,6 +241,7 @@
     color: black;
 }
 .circulo-team1{
+	margin-left: 35px;	
 	width: 130px;
     height: 130px;
     border-radius: 130px;
@@ -253,6 +252,7 @@
 }
 
 .circulo-team2{
+	margin-left: 35px;	
 	width: 130px;
     height: 130px;
     border-radius: 130px;
@@ -262,6 +262,7 @@
     left: 12vh;
 }
 .circulo-team3{
+	margin-left: 35px;	
 	width: 130px;
     height: 130px;
     border-radius: 130px;
@@ -270,9 +271,10 @@
 	position: relative;
     left: 12vh;
 }
-.amazing .p2{
+.p2{
 	font-style: normal;
-	padding-top: 3vh;
+	padding-top: 5vh;
+
 }
 .marcalinea{
 	width: 100%;
